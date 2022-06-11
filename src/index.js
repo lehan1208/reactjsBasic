@@ -4,6 +4,10 @@ import './styles/global.scss';
 import App from './views/App';
 import reportWebVitals from './reportWebVitals';
 
+import { Provider } from 'react-redux';
+import { createStore } from 'redux'
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
